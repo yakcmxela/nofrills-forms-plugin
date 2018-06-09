@@ -1,0 +1,88 @@
+body {
+  background-color: #f1f1f1; }
+
+hr {
+  margin: 24px 0px; }
+
+.nav {
+  color: white;
+  font-size: 18px;
+  font-weight: 500; }
+  .nav #nfas {
+    background-color: #0073aa;
+    cursor: pointer; }
+  .nav #nfach {
+    background-color: #0073aa;
+    cursor: pointer; }
+
+.forms {
+  width: 100%;
+  padding-right: 20px; }
+  .forms ul li {
+    color: black; }
+  .forms p {
+    font-size: 16px;
+    padding: 0px 12px; }
+  .forms span {
+    font-style: italic;
+    color: #717171;
+    margin-right: 12px; }
+  .forms h4 {
+    font-size: 18px;
+    background-color: #101e28;
+    padding: 12px;
+    color: white; }
+  .forms .back-to-list {
+    padding: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0073aa;
+    font-style: initial; }
+    .forms .back-to-list.Hidden {
+      display: none; }
+  .forms .form-list {
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white; }
+    .forms .form-list .order {
+      text-align: center;
+      cursor: pointer; }
+      .forms .form-list .order span {
+        padding: 6px 12px;
+        background-color: #eaeaea;
+        margin: auto; }
+    .forms .form-list .sort-by th {
+      padding: 12px;
+      text-decoration: underline;
+      font-style: italic;
+      cursor: pointer; }
+      .forms .form-list .sort-by th .order-arrow {
+        color: red; }
+    .forms .form-list .sort-by .order-control {
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer; }
+    .forms .form-list.Hidden {
+      display: none; }
+    .forms .form-list .single-application-link {
+      color: #0073aa;
+      cursor: pointer; }
+      .forms .form-list .single-application-link th {
+        padding: 12px;
+        font-weight: 400; }
+      .forms .form-list .single-application-link.Unread {
+        background-color: #0073aa;
+        color: white; }
+      .forms .form-list .single-application-link:hover {
+        background-color: #eaeaea;
+        color: #0073aa; }
+  .forms .full-app {
+    background-color: #f1f1f1;
+    margin-top: 20px; }
+    .forms .full-app .container {
+      background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
